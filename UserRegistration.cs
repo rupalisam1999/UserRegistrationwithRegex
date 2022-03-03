@@ -9,11 +9,11 @@ namespace UserRegistrationwithRegex
 {
     class UserRegistration
     {
-        const string LAST_NAME_PATTERN = "^[A-Z]{1}[a-z]{3,}$";
+        const string EMAIL_PATTERN = "^[a-z]{2,}[.]{1}[a-z]{3,}[@][a-z]{2,}[.]{1}[a-z]{2,}[.]{1}[a-z]{2,}$";
 
-        public bool ValidateLastName(string lastName)
+        public bool ValidateEmail(string email)
         {
-            var result = Regex.Match(lastName, LAST_NAME_PATTERN);
+            var result = Regex.Match(email, EMAIL_PATTERN );
             if (result.Success)
             {
                 return true;
