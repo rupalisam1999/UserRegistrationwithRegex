@@ -7,8 +7,10 @@ namespace UserRegistrationwithRegex
        static void Main(string[] args)
         {
             UserRegistration userRegistration = new UserRegistration();
-            Console.WriteLine("Password" +userRegistration.ValidatePassword("RupaliSs"));
+            Console.WriteLine("Password" +userRegistration.ValidatePassword("Rupaliss"));
             Console.WriteLine("Password" + userRegistration.ValidatePassword("rupali775475"));
+
+            Console.WriteLine("Password" + userRegistration.ValidatePassword("Rupaliss"));
         }
     }
 }
