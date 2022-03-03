@@ -11,6 +11,9 @@ namespace UserRegistrationwithRegex
             Console.WriteLine("Password" + userRegistration.ValidatePassword("rupali775475"));
 
             Console.WriteLine("Password" + userRegistration.ValidatePassword("Rupaliss"));
+
+            Console.WriteLine("Password" + userRegistration.ValidatePasswordRule3("Rupali123"));
+            Console.WriteLine("Password" + userRegistration.ValidatePasswordRule3("rupalis123"));
         }
     }
 }
