@@ -7,7 +7,8 @@ namespace UserRegistrationwithRegex
        static void Main(string[] args)
         {
             UserRegistration userRegistration = new UserRegistration();
-            Console.WriteLine("FirstName" +userRegistration.ValidateFirstName("Rupali"));
+            Console.WriteLine("FirstName" +userRegistration.ValidateLastName("Rupali"));
+            Console.WriteLine("FirstName" + userRegistration.ValidateLastName("rupali"));
         }
     }
 }
