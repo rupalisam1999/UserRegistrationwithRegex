@@ -4,9 +4,10 @@ namespace UserRegistrationwithRegex
 {
     class Program
     {
-        static void Main(string[] args)
+       static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            UserRegistration userRegistration = new UserRegistration();
+            Console.WriteLine("FirstName" +userRegistration.ValidateFirstName("Rupali"));
         }
     }
 }
