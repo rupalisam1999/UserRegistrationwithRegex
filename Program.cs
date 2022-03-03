@@ -7,8 +7,8 @@ namespace UserRegistrationwithRegex
        static void Main(string[] args)
         {
             UserRegistration userRegistration = new UserRegistration();
-            Console.WriteLine("Email" +userRegistration.ValidateEmail("rupali.xyz@bl.co.in"));
-            Console.WriteLine("Email" + userRegistration.ValidateEmail("rupali.@bl.co.in"));
+            Console.WriteLine("PhoneNo" +userRegistration.ValidatePhoneNo("91 9112674814"));
+            Console.WriteLine("PhoneNo" + userRegistration.ValidatePhoneNo("919322775475"));
         }
     }
 }
